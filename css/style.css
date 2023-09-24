@@ -1042,7 +1042,7 @@ body {
 }
 .main__sub-title {
   font-size: 20px;
-  background-image: url("/img/blueprint.png");
+  background-image: url("../img/blueprint.png");
   background-repeat: no-repeat;
   background-size: 50px;
   padding: 0px 0px 0px 70px;
