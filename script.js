@@ -10,8 +10,9 @@ window.addEventListener('DOMContentLoaded',()=>{
 	const swiperBackground = new Swiper('.swiper-body', {
 		direction: "vertical",
 		slidesPerView: 1,
+		allowTouchMove: false,
 		autoplay:{
-			delay: 10000,
+			delay: 6000,
 			stopOnLastSlide: false, 
 			disableOnInteraction: false,
 		},
@@ -49,7 +50,7 @@ window.addEventListener('DOMContentLoaded',()=>{
 			912:{
 				slidesPerView:3
 			}
-		}
-			
+		}	
 	});
+
 })
